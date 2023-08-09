@@ -1,0 +1,11 @@
+{
+    "name": "org/domain_alias_drush",
+    "type": "drupal-drush",
+    "extra": {
+        "drush": {
+            "services": {
+                "drush.services.yml": "^11"
+            }
+        }
+    }
+}

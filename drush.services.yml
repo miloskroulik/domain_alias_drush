@@ -1,0 +1,5 @@
+services:
+  domain_alias_drush.commands:
+    class: \Drupal\domain_alias_drush\Commands\DomainAliasDrushCommands
+    tags:
+      - { name: drush.command }
